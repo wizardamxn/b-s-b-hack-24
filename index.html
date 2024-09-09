@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ELEVATE360</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel='stylesheet' href='https://assets.codepen.io/7773162/swiper-bundle.min.css'>
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css'>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- link for footer -->
+    <link rel="stylesheet" href="footer.css"> 
+    <!-- link for navbar style  -->
+    <link rel="stylesheet" href="nav_bar/navbar.css">
+    <link rel="icon" href="/images/ihih.png">
+  </head>
+  <body>
+    <!-- HEADER -->
+<header class="header" id="header">
+  <nav class="nav container">
+    <a href="#" class="nav__logo"> <img src="/images/logo.png"  alt="logo"></a>
+    <div class="nav__menu" id="nav-menu">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#home" class="nav__link active-link">Dashboard</a>
+        </li>
+        <li class="nav__item">
+          <a href="#about" class="nav__link"> Career Test</a>
+        </li>
+        <li class="nav__item">
+          <a href="/landing_page/coming_soon.html" class="nav__link">Resources</a>
+        </li>
+        <li class="nav__item">
+          <a href="/activitytracker/activity_tracker.html" class="nav__link">Activity Tracker</a>
+        </li>
+        <a href="/login_file/login_and_signup.html" class="button button--ghost">SignIn</a>
+      </ul>
+      <div class="nav__close" id="nav-close">
+        <i class='bx bx-x'></i>
+      </div>
+      <img src="https://assets.codepen.io/7773162/nav-img.png" alt="" class="nav__img">
+    </div>
+    <div class="nav__toggle" id="nav-toggle">
+      <i class='bx bx-grid-alt'></i>
+    </div>
+  </nav>
+</header>
+<main class="main">
+  <!-- HOME -->
+  <section class="home container" id="home">
+    <div class="swiper home-swiper">
+      <div class="swiper-wrapper">
+        <!-- HOME SLIDER 1 -->
+        <section class="swiper-slide">
+          <div class="home__content grid">
+            <div class="home__group">
+              <img src="/images/expert.png" style="height: 380px;" alt="" class="home__img">
+              <div class="home__indicator"></div>
+              <div class="home__details-img">
+                <h4 class="home__details-title">Career Guidance</h4>
+                <span class="home__details-subtitle">By Yourself</span>
+              </div>
+            </div>
+            <div class="home__data">
+              <h3 class="home__subtitle">#1 Introduction</h3>
+              <h1 class="home__title">ELEVATE360</h1>
+              <p class="home__description">Unlock your potential with our interactive 
+                career counseling platform, providing personalized guidance, self-assessment
+                 tools, and real-world insights to help you explore career paths, make informed decisions,
+                 and confidently shape your future. </p>
+               <!-- <a href="#" class="book--now">
+                  <img src="https://assets.codepen.io/7773162/svgviewer-output+%281%29_3.svg" alt="" />
+                </a> 
+                <a href="#" class="button--link button--flex">Track Record <i class='bx bx-right-arrow-alt button__icon'></i>
+                </a> -->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- HOME SLIDER 2 -->
+        <section class="swiper-slide">
+          <div class="home__content grid">
+            <div class="home__group">
+              <img src="/images/dashlol.jpg" style="border-radius: 10px;" alt="" class="home__img">
+              <div class="home__indicator"></div>
+              <div class="home__details-img">
+                <h4 class="home__details-title">Dashboard</h4>
+                <span class="home__details-subtitle"></span>
+              </div>
+            </div>
+            <div class="home__data">
+              <h3 class="home__subtitle">#2 Dashboard</h3>
+              <h1 class="home__title">Dashboard <br></h1>
+              <p class="home__description">Dashboards visually display key metrics and data, enabling quick insights, monitoring performance, and informed decision-making for users.</p>
+              <div class="home__buttons">
+                <a href="dash.html" class="book--now">
+                  <img src="/images/Dashboard.svg" style="height:77px;width:186px;" alt="" />
+                </a>
+                <!-- <a href="#" class="button--link button--flex">Track Record <i class='bx bx-right-arrow-alt button__icon'></i>
+                </a> -->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- HOME SLIDER 3 -->
+        <section class="swiper-slide">
+          <div class="home__content grid">
+            <div class="home__group">
+              <img src="/images/why.jpg" style="border-radius: 10px;" alt="" class="home__img">
+              <div class="home__indicator"></div>
+              <div class="home__details-img">
+                <h4 class="home__details-title">Advice</h4>
+                <!-- <span class="home__details-subtitle">/span> -->
+              </div>
+            </div>
+            <div class="home__data">
+              <h3 class="home__subtitle">#3 Importance</h3>
+              <h1 class="home__title">WHY <br> ELEVATE360? </h1>
+              <p class="home__description">ELEVATE360 offers personalized career advice, in-depth assessments, a wide range of job resources, and expert mentorship, all designed to guide users toward rewarding and fulfilling career paths. By providing the necessary tools and support, Elevate 360 ensures individuals can make well-informed decisions to achieve their professional goals. </p>
+              <div class="home__buttons">
+                <!-- <a href="#" class="book--now">
+                  <img src="https://assets.codepen.io/7773162/svgviewer-output+%282%29_2.svg" alt="" />
+                </a>
+                <a href="#" class="button--link button--flex">Track Record <i class='bx bx-right-arrow-alt button__icon'></i>
+                </a> -->
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  <!-- CATEGORY -->
+  <section class="section category">
+    <h2 class="section__title">Thorough, <br>insightful analysis.  </h2>
+    <div class="category__container container grid">
+      <div class="category__data">
+       <img src="/images/personalized_learning_icon.png" style="height: 153px;" alt="" class="category__img"> 
+        <h3 class="category__title">Personalized <br>Guidance</h3>
+        <p class="category__description"> Tailored career recommendations based on individual strengths, interests, and goals, helping users make informed decisions about their future.
+        </p>
+      </div>
+      <div class="category__data">
+        <img src="/images/school-career-lab.png" style="height: 153px;" alt="" class="category__img"> 
+        <h3 class="category__title">Comprehensive <br> Resources</h3>
+        <p class="category__description"> Engage directly with career experts and peers through live chat and community forums, creating a supportive environment for growth and learning.
+        </p>
+      </div>
+      <div class="category__data">
+         <img src="/images/trusted_content_icon.png" style="height: 153px;" alt="" class="category__img"> 
+        <h3 class="category__title">Interactive <br> Support</h3>
+        <p class="category__description">Experience real-time assistance through live chat, interactive guides, and helpful resources designed to resolve your queries quickly and efficiently.</p>
+      </div>
+    </div>
+  </section>
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="about__container container grid">
+      <div class="about__data">
+        <h2 class="section__title about__title">Test based  <br>career counselling</h2>
+        <p class="about__description">By taking this test, you'll receive a precise list of careers best suited to your interests and potential, making the process of choosing a career easier and more efficient. </p>
+        <a href="/Delay/generating.html" class="book--now">
+          <img src="/images/careetest.svg" style="height:77px;width:186px;" alt="" />
+        </a>
+      </div>
+      <img src="/images/test.png" alt="" class="about__img" style="height: 40px;">
+    </div>
+  </section>
+  <!-- TRICK OR TREAT -->
+  <section class="section trick" id="trick">
+    <h2 class="section__title">Resources</h2>
+    <div class="trick__container container grid">
+      <div class="trick__content">
+        <!-- <img src="https://assets.codepen.io/7773162/trick-treat1-img.png" alt="" class="trick__img"> -->
+        <h3 class="trick__title">Education <br>Resources</h3>
+        <!-- <span class="trick__subtitle">Candy</span>
+        <span class="trick__price">$11.99</span> -->
+        <button class="button trick__button" style="height: 7px;">
+          <i class="fa-solid fa-arrow-right-long"></i>
+        </button>
+      </div>
+      <div class="trick__content">
+        <!-- <img src="https://assets.codepen.io/7773162/trick-treat2-img.png" alt="" class="trick__img"> -->
+        <h3 class="trick__title">Career Coaching <br> and Mentorship</h3>
+        <!-- <span class="trick__subtitle">Accessory</span>
+        <span class="trick__price">$8.99</span> -->
+        <button class="button trick__button">
+          <i class='bx bx-cart-alt trick__icon'></i>
+        </button>
+      </div>
+      <div class="trick__content">
+        <!-- <img src="https://assets.codepen.io/7773162/trick-treat3-img.png" alt="" class="trick__img"> -->
+        <h3 class="trick__title">Networking <br> opportunities</h3>
+        <!-- <span class="trick__subtitle">Accessory</span>
+        <span class="trick__price">$15.99</span> -->
+        <button class="button trick__button">
+          <i class='bx bx-cart-alt trick__icon'></i>
+        </button>
+      </div>
+      <div class="trick__content">
+        <!-- <img src="https://assets.codepen.io/7773162/trick-treat4-img.png" alt="" class="trick__img"> -->
+        <h3 class="trick__title">Financial Resources <br>for Education</h3>
+        <!-- <span class="trick__subtitle">Candy</span>
+        <span class="trick__price">$7.99</span> -->
+        <button class="button trick__button">
+          <i class='bx bx-cart-alt trick__icon'></i>
+        </button>
+      </div>
+      <div class="trick__content">
+        <!-- <img src="https://assets.codepen.io/7773 162/trick-treat5-img.png" alt="" class="trick__img"> -->
+        <h3 class="trick__title">Personalized <br>Guidance</h3>
+        <!-- <span class="trick__subtitle">Candy</span>
+        <span class="trick__price">$19.99</span> -->
+        <button class="button trick__button">
+          <i class='bx bx-cart-alt trick__icon'></i>
+        </button>
+      </div>
+      <div class="trick__content">
+        <!-- <img src="https://assets.codepen.io/7773162/trick-treat6-img.png" alt="" class="trick__img"> -->
+        <h3 class="trick__title">Industry-specific <br> Resources</h3>
+        <!-- <span class="trick__subtitle">Accessory</span>
+        <span class="trick__price">$17.99</span> -->
+        <button class="button trick__button">
+          <i class='bx bx-cart-alt trick__icon'></i>
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- DISCOUNT -->
+  <section class="section discount">
+    <div class="discount__container container grid">
+      <div class="discount__data">
+        <h2 class="discount__title">CHATBOX<br>  </h2>
+        <a href="chat.html" class="book--now">
+          <img src="/images/chat.svg" style="height:77px;width:186px;"  alt="" />
+        </a>
+      </div>
+      <img src="/images/chtme.jpg" alt="" class="discount__img">
+    </div>
+  </section>
+   
+  <!-- OUR NEWSLETTER -->
+  <section class="section newsletter">
+    <div class="newsletter__container container">
+      <h2 class="section__title">Our Newsletter</h2>
+      <p class="newsletter__description"> Get updated about upcomings exams and news around the Education world. <br>
+      SignUp Now </p>
+      <form action="" class="newsletter__form">
+        <input type="text" placeholder="Enter your email" class="newsletter__input">
+        <!-- <a href="#" class="book--now">
+          <img src="https://assets.codepen.io/7773162/svgviewer-output+%281%29_3.svg" alt="" />
+        </a> -->
+      </form>
+    </div>
+  </section>
+</main>
+<div class="footer">
+  <!-- <div class="heading">
+    <h2>Byte-Sized-Brains<sup>™</sup></h2>
+  </div> -->
+  <div class="content">
+    <div class="services">
+      <h4>Services</h4>
+      <p><a href="#">Career councelling</a></p>
+      <p><a href="/Delay/generating.html">Career test</a></p>
+      <p><a href="#">Career Guidance</a></p>
+      <p><a href="#">Privacy and policy</a></p>
+    </div>
+    <div class="social-media">
+      <h4>Social</h4>
+      <p>
+        <a href="#"
+          ><i class="fab fa-linkedin"></i> Linkedin</a
+        >
+      </p>
+      <p>
+        <a href="#"
+          ><i class="fab fa-twitter"></i> Twitter</a
+        >
+      </p>
+      <p>
+        <a href="https://github.com/"
+          ><i class="fab fa-github"></i> Github</a
+        >
+      </p>
+      <p>
+        <a href="https://www.facebook.com/"
+          ><i class="fab fa-facebook"></i> Facebook</a
+        >
+      </p>
+      <p>
+        <a href="https://www.instagram.com/"
+          ><i class="fab fa-instagram"></i> Instagram</a
+        >
+      </p>
+    </div>
+    <div class="links">
+      <h4>Quick links</h4>
+      <p><a href="#">Home</a></p>
+      <p><a href="#">About</a></p>
+      <p><a href="#">Services</a></p>
+      <p><a href="#">Contact</a></p>
+    </div>
+    <div class="details">
+      <h4 class="address">Address</h4>
+      <p>
+        Jabalpur Engineering College <br />
+        Hostel No.3
+      </p>
+      <h4 class="mobile">Mobile</h4>
+      <p><a href="#">+91-**********</a></p>
+      <h4 class="mail">Email</h4>
+      <p><a href="#">elevate360@gmail.com</a></p>
+    </div>
+  </div>
+  <footer>
+    <hr />
+    © 2024 Byte-Sized-Brains
+  </footer>
+</div>
+<!-- SCROLL UP -->
+<a href="#" class="scrollup" id="scroll-up">
+  <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+</a>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.2/swiper-bundle.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js'></script>
+    <script src="script.js"></script>
+  </body>
+</html>

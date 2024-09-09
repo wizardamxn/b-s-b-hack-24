@@ -1,0 +1,105 @@
+
+
+.effects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.options{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.effect-name {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.effect-box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.effect-box img {
+  width: 80px;
+  height: 80px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.effect-box:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.effect1:hover img {
+  transform: rotate(360deg);
+}
+
+.effect2:hover img {
+  transform: scale(1.5);
+}
+
+.effect3:hover img {
+  transform: skewX(20deg);
+}
+
+.effect4:hover img {
+  transform: scaleX(-1);
+}
+
+.effect5:hover img {
+  filter: grayscale(100%);
+}
+
+.effect6:hover img {
+  filter: blur(3px);
+}
+
+.effect7:hover img {
+  filter: brightness(150%);
+}
+
+.effect8:hover img {
+  animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-10px); }
+  50% { transform: translateX(10px); }
+  75% { transform: translateX(-10px); }
+  100% { transform: translateX(0); }
+}
+
+.effect9:hover img {
+  transform: translateY(-20px);
+}
+
+.effect10:hover img {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.2);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
